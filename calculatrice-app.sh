@@ -1,4 +1,5 @@
-#!/bin/bash 
+#!/bin/bash
+set -euo pipefail
 
 echo "********************************"
 echo "CONSTRUCTION DE L'APPLICATION SUR LE PORT 3000"
