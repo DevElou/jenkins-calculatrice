@@ -3,6 +3,6 @@ set -euo pipefail
 
 echo "********************************"
 echo "CONSTRUCTION DE L'APPLICATION SUR LE PORT 3000"
-docker compose up --buildx
+docker compose up -d --build
 echo "********************************"
 date
